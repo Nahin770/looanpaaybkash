@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LooanPaay - Instant Loan Service</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="7c3830af-207a-4e21-9d28-2417ab9741ba.jpeg" alt="LooanPaay Logo" style="height: 60px;" />
+      <h1>LooanPaay</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#apply">Apply</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Get Instant Loans Online</h2>
+      <p>Apply for quick and easy micro-loans via mobile money in minutes.</p>
+      <a href="#apply" class="btn">Apply Now</a>
+    </div>
+  </section>
+
+  <section id="apply" class="form-section">
+    <div class="container">
+      <h2>Loan Application Form</h2>
+      <p><strong>অনুগ্রহ করে ৫৬০ টাকা এই নম্বরে পাঠান: 01998189875 (bKash/Nagad)</strong></p>
+      <p>এই টাকা ৩০ মিনিট পর আপনার লোনের সঙ্গে অটোমেটিক যোগ হয়ে যাবে। পাঠানোর পরে নিচে আপনার ট্রানজেকশন আইডি দিন যাচাই করার জন্য।</p>
+
+      <form id="loanForm">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="phone">Mobile Number</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="nid">Upload NID Photo</label>
+        <input type="file" id="nid" name="nid" accept="image/*" required />
+
+        <label for="transaction">Last Transaction ID</label>
+        <input type="text" id="transaction" name="transaction" required />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h3>How fast do I get the loan?</h3>
+        <p>Usually within 10 minutes after successful verification.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Which mobile services are supported?</h3>
+        <p>bKash, Nagad, Rocket, and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: support@looanpaay.com</p>
+      <p>Phone: 01998189875</p>
+      <p><strong>অ্যাপ্লাই করার আগে ৫৬০ টাকা পাঠান এই নম্বরে: 01998189875</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 LooanPaay. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
